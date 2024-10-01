@@ -1,0 +1,134 @@
+/* iPod container */
+
+html, body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; 
+  background-color: #333;    /* Center vertically */
+}
+
+.ipodHeader {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+.dynamicHeading {
+  font-size: 20px;
+  margin: 0;
+}
+
+.ipodContainer {
+  width: 250px;
+  height: 450px;
+  background-color: #dcdcdc;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 10px;
+}
+
+.ipodScreen {
+  width: 90%;
+  height: 50%;
+  background-color: white;
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.ipodHeader {
+  font-size: 18px;
+  padding: 8px;
+  text-align: left;
+  font-weight: bold;
+}
+
+.ipodMenu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menuItem {
+  font-size: 16px;
+  padding: 8px 10px;
+  cursor: pointer;
+}
+
+.menuItem.active {
+  background-color: #007aff;
+  color: white;
+  border-radius: 5px;
+}
+
+.ipodBackground {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 50%;
+  background-size: cover;
+}
+
+/* iPod controls */
+.ipodControls {
+  width: 80%;
+  margin-top: 20px;
+}
+
+.wheel {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  background-color: #f0f0f0;
+  border-radius: 50%;
+  box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttonMenu,
+.buttonPrev,
+.buttonPlayPause,
+.buttonNext {
+  position: absolute;
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  cursor: pointer;
+}
+
+.buttonMenu {
+  top: 20px;
+}
+
+.buttonPrev {
+  left: 20px;
+}
+
+.buttonPlayPause {
+  bottom: 20px;
+}
+
+.buttonNext {
+  right: 20px;
+}
+
+.buttonCenter {
+  width: 60px;
+  height: 60px;
+  background-color: #ccc;
+  border-radius: 50%;
+  position: absolute;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
