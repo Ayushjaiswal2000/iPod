@@ -16,6 +16,8 @@ class App extends Component {
     };
   }
 
+  
+
   handleMouseDown = () => {
     this.setState({ isMouseDown: true });
   };
@@ -78,17 +80,19 @@ class App extends Component {
         ) : isCoverFlowActive ? (
           <div className={`${Style.coverFlowContainer}  ${Style.ipodScreen}`}>
             <p style={{marginLeft:'50px'}}>Cover Flow Screen</p>
+            <img className={Style.bounce} src="https://cdn-icons-png.flaticon.com/128/14367/14367397.png" alt="Game Icon" style={{ width: '130px', height: '130px' }} />
+
           </div>
         ) : isMusicActive ? (
           <div className={`${Style.musicContainer}  ${Style.ipodScreen}`}>
             <p style={{marginLeft:'70px'}}>Music Screen</p>
-            <img className={Style.bounce} src="https://as1.ftcdn.net/v2/jpg/05/82/46/04/1000_F_582460459_dPFQtVYmznmhk6R9xzscOjL1j0LMorDG.jpg" alt="Game Icon" style={{ width: '100px', height: '100px' }} />
+            <img className={Style.bounce} src="https://cdn-icons-png.flaticon.com/128/5495/5495752.png" alt="Game Icon" style={{marginLeft: '70px',marginTop: '10px', width: '100px', height: '100px' }} />
 
           </div>
         ) : isSettingsActive ? (
           <div className={`${Style.settingsContainer}  ${Style.ipodScreen}`}>
             <p style={{marginLeft:'60px'}}>Settings Screen</p>
-            <img className={Style.bounce} src="https://cdn-icons-png.flaticon.com/128/14665/14665744.png" alt="Game Icon" style={{ width: '100px', height: '100px' }} />
+            <img className={Style.bounce} src="https://cdn-icons-png.flaticon.com/128/14665/14665744.png" alt="Game Icon" style={{ marginLeft: '60px',width: '100px', height: '100px' }} />
 
           </div>
         ) : (
