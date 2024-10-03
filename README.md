@@ -2,10 +2,12 @@
 Live App : https://ipod-eibb.onrender.com/
 
 #iPod App
+---------------------------------------------------------------
 
 This is a React-based simulation of a classic iPod, featuring a functional menu navigation system, cover flow, and multiple screens like Games, Music, and Settings. Users can interact with the iPod menu using a click-wheel interface.
 
 #Features
+---------------------------------------------------------------
 
 Menu Navigation: Simulates the iPod menu, allowing users to scroll through options like Cover Flow, Music, Games, and Settings.
 
@@ -18,6 +20,7 @@ Menu Button: Returns to the main menu from any open screen.
 Functional Screens: Displays different screens (Games, Music, Settings) with icons and animations.
 
 #Technologies Used
+---------------------------------------------------------------
 
 React.js: The app is built using React class components.
 
@@ -26,6 +29,7 @@ CSS Modules: Modularized CSS for scoped styling.
 Event Handling: Mouse events (click, move, etc.) are used to simulate the iPod click-wheel.
 
 #Project Structure
+---------------------------------------------------------------
 
 src/: Contains all the source code.
 
@@ -36,6 +40,7 @@ App.module.css: CSS module file for styling the iPod and its components.
 public/: Contains static assets and the main HTML template.
 
 #Screens Overview
+---------------------------------------------------------------
 
 Cover Flow Screen: Displays a placeholder for Cover Flow.
 
@@ -46,6 +51,7 @@ Games Screen: Displays a game icon and placeholder.
 Settings Screen: Displays a placeholder for settings.
 
 #Interaction Instructions
+---------------------------------------------------------------
 
 Scrolling: Click and drag within the wheel to scroll through menu items.
 
